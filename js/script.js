@@ -34,3 +34,14 @@ frutas.forEach((frutaDoArray, indiceDoArray, proprioArray) => {
 
     console.log("COM FOREACH", frutaDoArray);
 });
+
+//Adicionando um novo item ao ARRAY de FRUTAS com PUSH.
+frutas.push("melancia");
+
+//Lendo array com Loop FOR OF
+
+for (const fruta of frutas) {
+    console.log("COM FOR OF", fruta);
+}
+
+
