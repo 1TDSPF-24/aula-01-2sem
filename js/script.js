@@ -26,3 +26,14 @@ for (const fruta of frutas) {
 for (const indice in frutas) {
     console.log("COM FOR IN", frutas[indice]);
 }
+
+//lendo array com loop FOREACH
+
+frutas.forEach((frutaDoArray, indiceDoArray, proprioArray) => {
+
+    if (proprioArray[4] == frutaDoArray) {
+        console.log("ACHEI A FRUTA : ", frutaDoArray);
+    }
+
+    console.log("COM FOREACH", frutaDoArray);
+});
