@@ -13,3 +13,16 @@ console.log(frutas[3]);
 for (let x = 0; x < frutas.length; x++) {
     console.log(frutas[x]);
 }
+
+//lendo array com loop FOR OF 
+
+for (const fruta of frutas) {
+    console.log(frutas[x]);
+}
+
+
+// lendpo array com loop FOR IN
+
+for (const indice in frutas) {
+    console.log("COM FOR IN", frutas[indice]);
+}
