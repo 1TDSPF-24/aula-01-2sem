@@ -13,7 +13,7 @@ for (let x = 0; x < frutas.length; x++) {
 }
 
 // Lendo array com loop FOR OF
-for (const fruta of fruta) {
+for (const fruta of frutas) {
     console.log("COM FOR OF", fruta)
 }
 
@@ -21,3 +21,14 @@ for (const fruta of fruta) {
 for (const indice in frutas) {
     console.log(" COM FOR IN", frutas[indice]);
 }
+
+// Lendo array com loop FOREACH
+
+frutas.forEach(function (valorDoArray, indice, proprioArray) {
+
+    if (proprioArray[indice] == valorDoArray) {
+        console.log("ACHEI A FRUTA : ", valorDoArray);
+    }
+
+    console.log("COM FOREACH", valorDoArray);
+});
